@@ -1,0 +1,72 @@
+.culture-values-section {
+  background-color: #f9f9f9;
+  padding-bottom: 100px;
+
+  .item {
+
+    p {
+      text-align: center;
+    }
+
+    .item-icon {
+      height: 93px;
+      width: 93px;
+      margin: 8px auto 16px;
+
+      background-image: url('../images/icons/culture-values-iconset.png');
+      background-repeat: no-repeat;
+    }
+
+    .first {
+      background-position: -1px 2px;
+
+      &:after {
+        display: block;
+        width: 30%;
+        content: ' ';
+        position: absolute;
+        border-bottom: 2px solid #777;
+        top: 25%;
+        right: -1px;
+      }
+    }
+
+    .second {
+      background-position: -118px 2px;
+
+      &:before {
+        display: block;
+        width: 30%;
+        content: ' ';
+        position: absolute;
+        border-bottom: 2px solid #777;
+        top: 25%;
+        right: 272px;
+      }
+
+      &:after {
+        display: block;
+        width: 30%;
+        content: ' ';
+        position: absolute;
+        border-bottom: 2px solid #777;
+        top: 25%;
+        right: -1px;
+      }
+    }
+
+    .third {
+      background-position: -227px 2px;
+
+      &:before {
+        display: block;
+        width: 30%;
+        content: ' ';
+        position: absolute;
+        border-bottom: 2px solid #777;
+        top: 25%;
+        right: 272px;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.our-clients-section {
+  margin-bottom: 60px;
+
+  .client-photo {
+    background-image: url('../images/content/our-clients-photo-bg.png');
+    background-repeat: no-repeat;
+    height: 271px;
+  }
+
+  .left-photo {
+    background-position: 67px 10px;
+  }
+
+  .right-photo {
+    background-position: 47px 10px;
+  }
+
+  .feedback {
+    background-repeat: no-repeat;
+    height: 271px;
+
+    .feedback-content {
+      position: absolute;
+      width: 546px;
+//      margin-left: 409px;
+//      margin-top: 80px;
+
+      font-family: 'roboto_slabregular';
+
+      .quoted-feedback {
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        color: #777;
+
+        padding: 0 5px;
+
+        &:before {
+          content: "“";
+          margin-left: -11px;
+        }
+
+        &:after {
+          content: "”";
+
+        }
+      }
+
+      .feedback-author {
+        font-size: 18px;
+        line-height: 36px;
+        color: #7cc576;
+        text-align: center;
+      }
+    }
+  }
+
+  .left-feedback {
+    background-image: url('../images/content/our-clients-left-feedback-bg.png');
+    background-position: 216px 41px;
+
+    .feedback-content {
+      margin-left: 256px;
+      margin-top: 83px;
+    }
+  }
+
+  .right-feedback {
+    background-image: url('../images/content/our-clients-right-feedback-bg.png');
+    background-position: 338px 41px;
+
+    .feedback-content {
+      margin-left: 409px;
+      margin-top: 80px;
+    }
+  }
+}

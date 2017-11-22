@@ -1,0 +1,139 @@
+footer {
+  background-color: #222;
+  padding-top: 30px;
+
+  .footer-main {
+    min-height: 365px;
+
+    font-family: 'roboto_slabregular';
+    font-size: 16px;
+    color: #ececec;
+    letter-spacing: -1px;
+
+    h3 {
+      padding-bottom: 15px;
+
+      text-align: left;
+      color: #fff;
+    }
+
+    .contact-us, .latest-posts, .latest-tweets {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .contacts-item {
+      padding: 10px 38px;
+
+      background-image: url('../images/icons/footer-contactus-iconset.png');
+      background-repeat: no-repeat;
+    }
+
+    .first-contact {
+      padding-top: 0;
+      background-position: -2px 4px;
+    }
+
+    .second-contact {
+      background-position: -2px -75px;
+    }
+
+    .third-contact {
+      background-position: -2px -155px;
+    }
+
+    .posts-item {
+      padding: 10px 38px;
+
+      background-image: url('../images/icons/footer-posts-iconset.png');
+      background-repeat: no-repeat;
+    }
+
+    .first-post {
+      padding-top: 0;
+      background-position: 0 1px;
+    }
+
+    .second-post {
+      background-position: 0 -22px;
+    }
+
+    .third-post {
+      background-position: 0 11px;
+    }
+
+    .fourth-post {
+      background-position: 0 11px;
+    }
+
+    .fifth-post {
+      background-position: 0 -55px;
+    }
+
+    .tweet-item {
+      padding: 0 38px 10px;
+
+      background-image: url('../images/icons/footer-tweet-icon.png');
+      background-repeat: no-repeat;
+      background-position: 0 4px;
+
+      p {
+        width: 245px;
+      }
+
+      .time-marker {
+        font-family: 'Times New Roman';
+        font-size: 12px;
+        letter-spacing: 0;
+      }
+    }
+  }
+
+  .footer-bottom {
+    background-color: #fff;
+    padding: 30px 0;
+
+    .copyright {
+      font-family: 'Times New Roman';
+      font-size: 14px;
+      line-height: 41px;
+      color: #555;
+    }
+
+    .social-networks {
+      width: 204px;
+      margin: 0 auto;
+      overflow: hidden;
+
+      .network-item {
+        height: 41px;
+        width: 41px;
+        margin: 0 5px;
+
+        float: left;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+
+        &:hover {
+          background-position: 0 -43px;
+        }
+      }
+
+      .tweeter {
+        background-image: url('../images/icons/footer-network-tweeter-iconset.png');
+      }
+
+      .facebook {
+        background-image: url('../images/icons/footer-network-facebook-iconset.png');
+      }
+
+      .pinterest {
+        background-image: url('../images/icons/footer-network-pinterest-iconset.png');
+      }
+
+      .google {
+        background-image: url('../images/icons/footer-network-google-iconset.png');
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.logos-section {
+  width: 885px;
+  margin: 60px auto;
+  padding-bottom: 60px;
+
+  .logo-item {
+    background-image: url('../images/icons/logos-iconset.png');
+    background-repeat: no-repeat;
+
+    height: 50px;
+    width: 195px;
+    margin: 0 5px;
+    float: left;
+  }
+
+  .first {
+    background-position: 5px -3px;
+  }
+
+  .second {
+    background-position: -229px -1px;
+  }
+
+  .third {
+    background-position: -458px -1px;
+  }
+
+  .fourth {
+    background-position: -685px -1px;
+  }
+}

@@ -1,0 +1,36 @@
+header {
+  margin: 40px 0;
+
+  img {
+    float: left;
+  }
+
+  .main-menu {
+    float: right;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      li {
+        display:inline-block;
+        padding: 0 17px;
+
+        a {
+          font-family: 'montserratregular';
+          font-size: 14px;
+          line-height: 41px;
+          color: #777777;
+          text-transform: uppercase;
+
+          &:hover {
+            color: #222222;
+
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

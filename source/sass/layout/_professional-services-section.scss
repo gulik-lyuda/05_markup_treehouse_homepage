@@ -1,0 +1,37 @@
+.professional-services-section {
+  margin-bottom: 105px;
+
+  .item {
+    h3 {
+      margin: 0;
+    }
+
+    .item-icon {
+      height: 55px;
+      width: 58px;
+      margin: 8px auto 28px;
+
+      background-image: url('../images/icons/services-info-iconset.png');
+      background-repeat: no-repeat;
+    }
+
+    .first {
+      background-position: -1px 2px;
+    }
+
+    .second {
+      background-position: -120px 2px;
+    }
+
+    .third {
+      background-position: -242px 2px;
+    }
+
+    p {
+      font-family: 'roboto_slabregular';
+      font-size: 14px;
+      color: #777777;
+      text-align: center;
+    }
+  }
+}
